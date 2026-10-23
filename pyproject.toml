@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medical-billing-coding-automation"
+version = "0.1.0"
+description = "Configurable, source-traceable medical billing claim validation starter"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+billing-validate = "billing_automation.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["billing_automation*"]

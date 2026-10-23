@@ -1,0 +1,4 @@
+{
+  "ICD-10-CM": {"DEMO_DX": {"reportable": true, "valid_from": "2026-01-01", "valid_to": "2026-12-31", "source": "Synthetic fixture"}},
+  "HCPCS": {"DEMO_PROC": {"reportable": true, "valid_from": "2026-01-01", "valid_to": "2026-12-31", "source": "Synthetic fixture"}}
+}

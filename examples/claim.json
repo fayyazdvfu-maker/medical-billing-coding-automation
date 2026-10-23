@@ -1,0 +1,6 @@
+{
+  "date_of_service": "2026-10-01",
+  "payer": "DEMO_PAYER",
+  "diagnoses": ["DEMO_DX"],
+  "lines": [{"procedure_code": "DEMO_PROC", "code_set": "HCPCS", "modifiers": ["DEMO_MOD"], "diagnosis_pointers": [1]}]
+}

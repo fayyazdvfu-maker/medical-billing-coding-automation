@@ -1,0 +1,14 @@
+[
+  {
+    "id": "DEMO_MODIFIER_RULE",
+    "type": "required_modifier",
+    "procedure_codes": ["DEMO_PROC"],
+    "payer": "DEMO_PAYER",
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31",
+    "source": "Synthetic example only; not a payer policy",
+    "modifier": "DEMO_MOD",
+    "severity": "review",
+    "message": "The synthetic example requires DEMO_MOD."
+  }
+]
